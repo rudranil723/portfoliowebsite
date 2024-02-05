@@ -17,9 +17,8 @@ const Home = () => {
                 <h2>Frontend devloper/ software devloper</h2>
                 <Link to="/contact" className='flat-button'> CONTACT ME</Link>
             </div>
-            <div className='right-image-container'>
-                {/* also change this image later */}
-            <img src={RightImage} alt="Right Image" />
+            <div className='right-container'>
+                
             </div>
         </div>
     );

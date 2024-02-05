@@ -8,8 +8,15 @@ const Layout = () => {
     <div className='App'>
       <Sidebar />
       <div className="page" style={{ backgroundColor: '#6147b0' }}>
+        
+      <div id="space">
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+      </div>
 
-      {/* shall remove this later */}
         <span className='tags top-tags'>&lt;body&gt;</span> 
 
         <Outlet />

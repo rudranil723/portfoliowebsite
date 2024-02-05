@@ -89,34 +89,12 @@
     height: auto;
   }
   
-  .right-image-container {
+
+  .right-container{
     float: right;
-    border-radius: 100px;
-    overflow: hidden;
-    margin-right: 15%;
-  
-    img {
-      width: 100%;
-      height: auto;
-      margin-top: 25rem;
-      border-radius: 100px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-  
-    @media screen and (max-width: 1200px) {
-      float: none;
-      margin-right: 0;
-      margin-left: auto;
-      text-align: center;
-  
-      img {
-        margin-top: 0;
-        width: 50%;
-        margin-top: 2rem;
-      }
-    }
+    position: absolute;
   }
-  
+ 
   
   @media screen and (max-width: 1200px) {
     .tags,
