@@ -7,7 +7,8 @@ const Layout = () => {
   return (
     <div className='App'>
       <Sidebar />
-      <div className="page" style={{ backgroundColor: '#6147b0' }}>
+      {/* 6147b0 */}
+      <div className="page" style={{ backgroundColor: '#000000' }}>
         
       <div id="space">
         <div class="stars"></div>
