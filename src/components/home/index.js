@@ -26,12 +26,12 @@ const Home = () => {
     }, []); 
     
     useEffect(() => {
-        // Place the jQuery code within the useEffect hook
         $(".option").click(function () {
           $(".option").removeClass("active");
           $(this).addClass("active");
         });
-      }, []);     
+      }, []);  
+         
     return (
         <div className="container home-page" >
             <div className="text-zone">
