@@ -49,6 +49,7 @@
       }
     }
 
+
     .web-devloper-text{
       color: #ffd700;
     }
@@ -143,7 +144,7 @@
   // https://codepen.io/z-/pen/OBPJKK?editors=1100
 
 
-  $optionDefaultColours: #ED5565,#FC6E51,#FFCE54,#2ECC71,#5D9CEC,#AC92EC;
+$optionDefaultColours: #ED5565,#FC6E51,#FFCE54,#2ECC71,#5D9CEC,#AC92EC;
 
 .right-container {
    display:flex;
@@ -153,7 +154,6 @@
    overflow:hidden;
    height:100vh;
    margin-left: 60%;
-   
    font-family: 'Roboto', sans-serif;
    transition:.25s;
 
@@ -161,7 +161,6 @@
       position: absolute;
       bottom:20px;
       left:20px;
-      
       color:inherit;
    }
    .options {
@@ -169,30 +168,19 @@
       flex-direction:row;
       align-items:stretch;
       overflow:hidden;
-
       min-width:600px;
       max-width:900px;
       width:calc(100% - 100px);
-      
       height:400px;
       
-      @for $i from 1 through 4 {
-        @media screen and (max-width:798px - $i*80) {
-           min-width:600px - $i*80;
-           .option:nth-child(#{6-$i}) {
-              display:none;
-           }
-        }
-     }
+    
       
       .option {
          position: relative;
          overflow:hidden;
-
          min-width:60px;
          margin:10px;
-         //border:0px solid --defaultColor;
-
+         border:0px solid --defaultColor;
          background:var(--optionBackground, var(--defaultBackground, #E6E9ED));
          background-size:auto 120%;
          background-position:center;
@@ -209,7 +197,6 @@
          &.active {
             flex-grow:10000;
             transform:scale(1);
-            
             max-width:600px;
             margin:0px;
             border-radius:40px;
@@ -305,3 +292,31 @@
       }
    }
 }
+
+
+@media screen and (max-width: 1200px) {
+   .right-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      height: 50%;
+      margin: 20px;
+      // width: calc(100% - 10% - 2 * 5%);
+      width: calc(100% - 10%);
+
+      .options{
+         min-width:350px;
+         max-width:700px;
+         width:calc(100% - 100px);
+         height:250px;
+
+         .option{
+            min-width:40px;
+            margin:5px;
+         }
+      }
+    }
+ }
+ 

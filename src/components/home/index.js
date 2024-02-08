@@ -23,11 +23,11 @@ const Home = () => {
             <div className="text-zone">
                 <h1>hi,<br/>I'm,
                 {/* we have to rmake the R photo but later */}
-                <img className = 'namelogo' src={LogoTitle} style={{width: '40px', height: 'auto'}} alt="devloper"/>
+                <img className = 'namelogo' src={LogoTitle} style={{width: '60px', height: '60px'}} alt="devloper"/>
                 udranil
                 <br/>
-                <span className='web-devloper-text'>web devloper</span>
-                </h1>
+                <span className='web-devloper-text'>web devloper.</span>
+            </h1>
                 <h2>Frontend devloper/ software devloper</h2>
                 <Link to="/contact" className='flat-button'> CONTACT ME</Link>
             </div>
@@ -41,8 +41,8 @@ const Home = () => {
                             <i class="fas fa-calculator"></i>
                         </div>
                         <div class="info">
-                            <div class="main">rudranil</div>
-                            <div class="sub">Omuke trughte a otufta</div>
+                            <div class="main">React calculator</div>
+                            <div class="sub">calculator designed using react</div>
                         </div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@ const Home = () => {
                             <i class="fas fa-snowflake"></i>
                         </div>
                         <div class="info">
-                            <div class="main">Oretemauw</div>
-                            <div class="sub">Omuke trughte a otufta</div>
+                            <div class="main">Weather App</div>
+                            <div class="sub">Weather App designed using HTML,CSS,Js</div>
                         </div>
                     </div>
                 </div>
@@ -65,8 +65,8 @@ const Home = () => {
                             <i class="fas fa-tree"></i>
                         </div>
                         <div class="info">
-                            <div class="main">Iteresuselle</div>
-                            <div class="sub">Omuke trughte a otufta</div>
+                            <div class="main">Python Chatbot</div>
+                            <div class="sub">Python Project</div>
                         </div>
                     </div>
                 </div>
@@ -77,8 +77,8 @@ const Home = () => {
                             <i class="fas fa-tint"></i>
                         </div>
                         <div class="info">
-                            <div class="main">Idiefe</div>
-                            <div class="sub">Omuke trughte a otufta</div>
+                            <div class="main">Portfolio Website</div>
+                            <div class="sub">my portfolio website</div>
                         </div>
                     </div>
                 </div>
