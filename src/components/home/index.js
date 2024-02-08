@@ -50,7 +50,7 @@ const Home = () => {
                     />
                     <br/>
                     <AnimatedLetters
-                        letterClass={letterClass}
+                        letterClass={`${letterClass} yellow-text`} 
                         strArray={jobArray}
                         idx={22}
                     />
