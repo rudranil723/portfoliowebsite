@@ -55,7 +55,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <Loader type='pacman'/> {/* Make sure Loader component is correctly placed within JSX */}
+         {/* Make sure Loader component is correctly placed within JSX */}
         </>
         
     )

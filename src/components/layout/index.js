@@ -7,7 +7,6 @@ const Layout = () => {
   return (
     <div className='App'>
       <Sidebar />
-      {/* 6147b0 */}
       <div className="page" style={{ backgroundColor: '#000000' }}>
         
       <div id="space">
